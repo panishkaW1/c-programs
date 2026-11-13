@@ -1,0 +1,19 @@
+[Running] cd "c:\Users\USER\Desktop\c language\" && gcc hello.c -o hello && "c:\Users\USER\Desktop\c language\"hello
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+[Done] exited with code=1 in 1.507 seconds
+
+[Running] cd "c:\Users\USER\Desktop\c language\" && gcc hello.c programming.c -o hello.c programming && "c:\Users\USER\Desktop\c language\"hello.c programming
+gcc: error: programming.c: No such file or directory
+gcc: error: programming: No such file or directory
+gcc: fatal error: input file 'hello.c' is the same as output file
+compilation terminated.
+
+[Done] exited with code=1 in 0.232 seconds
+
+[Running] cd "c:\Users\USER\Desktop\c language\" && gcc hello.c -o hello && "c:\Users\USER\Desktop\c language\"hello
+hello, World!
+
+[Done] exited with code=0 in 2.146 seconds
+
